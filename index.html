@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <style>
+      body {
+        font-family: "Oswald", serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        background-image: url(fotoebook.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 100vh;
+        margin-top: 247px;
+      }
+      .container {
+        max-width: 800px;
+        margin: 50px auto;
+        padding: 15px;
+        background: rgba(255, 255, 255, 0.8);
+        border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease-in-out;
+      }
+      .container:hover {
+        transform: scale(1.03);
+      }
+      h1 {
+        color: #333;
+        font-weight: 600;
+      }
+      p {
+        color: #000000;
+        font-weight: 300;
+        font-size: 25px;
+        font-family: "Oswald", serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+      }
+      .cta-button {
+        display: inline-block;
+        padding: 12px 24px;
+        margin-top: 20px;
+        font-size: 18px;
+        color: white;
+        background-color: #007bff;
+        text-decoration: none;
+        border-radius: 50px;
+        box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+        transition: all 0.3s ease-in-out;
+      }
+      .cta-button:hover {
+        background-color: #0056b3;
+        box-shadow: 0 6px 15px rgba(0, 86, 179, 0.4);
+      }
+      @media (max-width: 768px) {
+        body {
+          background-attachment: scroll;
+          padding: 20px;
+          height: auto;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+        .container {
+          max-width: 95%;
+          width: 100%;
+          padding: 15px;
+        }
+        h1 {
+          font-size: 1.5rem;
+        }
+        p {
+          font-size: 1rem;
+        }
+        .cta-button {
+          font-size: 16px;
+          padding: 10px 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Diga adeus à procrastinação e assuma o controle!</h1>
+      <p>
+        Você vive adiando tarefas e se sente preso no ciclo da procrastinação?
+        Este Ebook é a solução que vai te ajudar a agir, ser mais produtivo e
+        alcançar seus objetivos. Chega de esperar, comece agora!
+      </p>
+      <a href="https://www.youtube.com/watch?v=cwG9QmSdOjY" class="cta-button"
+        >Liberte-se</a
+      >
+    </div>
+  </body>
+</html>
